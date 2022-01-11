@@ -3,6 +3,13 @@
   flex-direction: column;
 }
 
+header {
+  height: 20px;
+  display: flex;
+  width: 320px;
+  justify-content: space-between;
+}
+
 .logo {
   display: flex;
   text-align: center;
@@ -30,17 +37,21 @@
   flex-grow: 0;
 }
 
+a {
+  text-decoration: none;
+  color: dodgerblue;
+}
+
 .box2 {
   background-image: url(background.png);
   position: static;
   width: 327px;
-  height: 150px;
+  height: 75px;
   left: 24px;
   top: 114px;
   font-family: sans-serif;
   font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
+  font-weight: bolder;
   line-height: 52px;
   display: flex;
   align-items: center;
@@ -49,6 +60,7 @@
   order: 0;
   flex-grow: 0;
   margin: 12px 0;
+  flex-wrap: wrap;
 }
 
 .box3 {
@@ -87,22 +99,27 @@
   padding-top: 10px;
 }
 
-.box5_1 {
-  padding-left: 10px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
 }
 
-.box5_2 {
-  padding-left: 15px;
+li {
+  padding: 5px;
+  float: left;
 }
 
-.box5_3 {
-  padding-left: 20px;
+button {
+  background-color: white;
+  border: none;
 }
 
-.box5_4 {
-  padding-left: 25px;
+button:hover {
+  background-color: tomato;
 }
 
-.box5_5 {
-  padding-left: 30px;
+button:active {
+  background-color: yellowgreen;
 }
