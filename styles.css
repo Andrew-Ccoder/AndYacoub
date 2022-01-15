@@ -1,11 +1,16 @@
+body {
+  background-color: #f1f0f085;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   background: white;
-  padding: 10px;
-  border-radius: 5px;
   margin-top: 10px;
   width: 375px;
+  padding: 24px;
+  box-sizing: border-box;
+  border-radius: 1px 1px 1px 50px;
 }
 
 header {
@@ -20,6 +25,19 @@ header {
   text-align: center;
   justify-content: space-between;
   color: #6070ff;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(8, 130, 252);
+}
+
+.logo a {
+  list-style: none;
+  color: #6070ff;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .box1 {
@@ -36,24 +54,22 @@ header {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #6070ff;
+  color: #1a2fec;
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
-a {
-  text-decoration: none;
-  color: dodgerblue;
+.about {
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 
 .box2 {
-  background-image: url(background.png);
-  position: static;
-  width: 327px;
-  height: 75px;
-  left: 24px;
-  top: 114px;
+  width: 250px;
+  height: 100%;
   font-family: sans-serif;
   font-style: normal;
   font-weight: bolder;
@@ -66,6 +82,8 @@ a {
   flex-grow: 0;
   margin: 12px 0;
   flex-wrap: wrap;
+  font-size: 40px;
+  margin-top: 70px;
 }
 
 .box3 {
@@ -83,7 +101,8 @@ a {
   flex: none;
   order: 2;
   flex-grow: 0;
-  margin: 12px 0;
+  margin-top: 24px;
+  margin-bottom: 0;
 }
 
 .box4 {
@@ -97,12 +116,18 @@ a {
   color: #7f8cff;
 }
 
+.box4 a {
+  font-size: 18px;
+  color: #7f8cff;
+}
+
 .box5 {
   order: 4;
   display: flex;
   flex-direction: row;
   padding-top: 10px;
   width: 320px;
+  padding-bottom: 20px;
 }
 
 .box6 {
@@ -240,7 +265,7 @@ button.resume {
   border-color: #dfe1e6;
   width: 90%;
   height: 20px;
-  padding-top: 12px;
+  padding: 24px;
 }
 
 .works-item img {
@@ -260,7 +285,7 @@ button.resume {
   display: flex;
   position: static;
   width: 290px;
-  height: 66.72px;
+  height: 50px;
   left: 12px;
   top: 12px;
   background: #f7f7f9;
@@ -271,17 +296,24 @@ button.resume {
   margin-top: 3px;
 }
 
+.Languages-item img {
+  width: 48px;
+  height: 48px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
 .lang {
   position: absolute;
   font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 20px;
   display: flex;
   align-items: center;
   color: #253858;
-  padding-left: 100px;
+  padding-left: 70px;
 }
 
 .wrapper {
@@ -297,12 +329,11 @@ button.resume {
   align-items: center;
   padding: 16px;
   position: static;
-  width: 327px;
+  width: 95%;
   height: 552px;
   left: calc(50% - 327px / 2);
   top: 114px;
   background: #fff;
-  border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
   flex: none;
@@ -469,16 +500,32 @@ button.resume {
   align-items: center;
   padding: 16px;
   position: static;
-  width: 327px;
-  height: 900px;
+  width: 100%;
+  height: 1100px;
   left: calc(50% - 327px / 2);
   top: 114px;
   background: #fff;
-  border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 0.1px 50px 0.1px 0.1px;
   flex: none;
-  margin: 88px 1px;
+  margin: 0 auto;
+}
+
+.aboutMe h2 {
+  font-size: 40px;
+  width: 250px;
+  height: 100%;
+  margin: 12px 0;
+  justify-self: left;
+  padding: 0 24px;
+  color: #172b4d;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.AboutH2 {
+  width: 100%;
+  margin-top: 100px;
 }
 
 .cv {
@@ -499,7 +546,7 @@ button.resume {
   width: 164px;
   height: 48px;
   top: calc(50% - 48px / 2);
-  border: 1px solid #6070ff;
+  border: 1px solid #396df2;
   box-sizing: border-box;
   border-radius: 8px;
   font-family: sans-serif;
@@ -538,6 +585,11 @@ button.resume {
   margin: 0.1px 8px;
 }
 
+.connect a {
+  font-size: 18px;
+  color: #7f8cff;
+}
+
 .skillList {
   display: flex;
   flex-direction: column;
@@ -566,7 +618,8 @@ button.resume {
 }
 
 .site {
-  padding: 5px;
+  padding-left: 0.01px;
+  padding-right: 10px;
 }
 
 .works-item-lang {
@@ -583,5 +636,5 @@ button.resume {
   border-color: #dfe1e6;
   width: 90%;
   height: 20px;
-  padding-top: 12px;
+  padding: 24px;
 }
