@@ -748,6 +748,8 @@ button.resume {
   margin-top: 320px;
 }
 
-input[type="text"]:focus:invalid,input[type="email"]:focus:invalid,textarea:focus:invalid {
+input[type="text"]:focus:invalid,
+input[type="email"]:focus:invalid,
+textarea:focus:invalid {
   border: 5px dashed #c93915;
 }
