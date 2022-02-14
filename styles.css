@@ -759,6 +759,22 @@ button.resume {
   letter-spacing: 0.03em;
 }
 
+.contact-me input[type="submit"]:hover {
+  background: #6070ff;
+  color: #fff;
+  border: 1px solid #000;
+  box-shadow: 0.001px 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+}
+
+.contact-me input[type="submit"]:active {
+  background: #2230d2;
+  color: #fff;
+  border: 1px solid #000;
+  box-shadow: 0.001px 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+}
+
 .scroll {
   position: absolute;
   width: 134px;
