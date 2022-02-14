@@ -1,7 +1,7 @@
 body {
   background-color: #f1f0f085;
   width: 100%;
-  margin: 0;
+  margin: 0.001px;
   padding: 0;
 }
 
@@ -759,10 +759,6 @@ button.resume {
   letter-spacing: 0.03em;
 }
 
-.Lang-desktop {
-  display: none;
-}
-
 .scroll {
   position: absolute;
   width: 134px;
@@ -846,10 +842,6 @@ textarea:focus:invalid {
     display: none;
   }
 
-  .Lang-desktop_1 {
-    display: none;
-  }
-
   .works-item-lang_1 {
     display: none;
   }
@@ -910,6 +902,22 @@ textarea:focus:invalid {
     border-radius: 8px;
     flex: none;
     display: flex;
+  }
+
+  .contact-me input[type="submit"]:hover {
+    background: #6070ff;
+    color: #fff;
+    border: 1px solid #000;
+    box-shadow: 0.001px 8px 16px rgba(64, 83, 252, 0.24);
+    border-radius: 8px;
+  }
+
+  .contact-me input[type="submit"]:active {
+    background: #2230d2;
+    color: #fff;
+    border: 1px solid #000;
+    box-shadow: 0.001px 8px 16px rgba(64, 83, 252, 0.24);
+    border-radius: 8px;
   }
 }
 
@@ -1354,6 +1362,22 @@ textarea:focus:invalid {
     letter-spacing: 0.03em;
     padding: 10px;
     width: 95%;
+  }
+
+  .contact-me input[type="submit"]:hover {
+    background: #6070ff;
+    color: #fff;
+    border: 1px solid #000;
+    box-shadow: 0.001px 8px 16px rgba(64, 83, 252, 0.24);
+    border-radius: 8px;
+  }
+
+  .contact-me input[type="submit"]:active {
+    background: #2230d2;
+    color: #fff;
+    border: 1px solid #000;
+    box-shadow: 0.001px 8px 16px rgba(64, 83, 252, 0.24);
+    border-radius: 8px;
   }
 
   .prosumm {
