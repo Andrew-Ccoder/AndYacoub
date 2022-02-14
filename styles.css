@@ -796,7 +796,7 @@ textarea:focus:invalid {
   display: none;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 1000px) {
   body {
     width: 100%;
     overflow: hidden;
@@ -807,6 +807,10 @@ textarea:focus:invalid {
   }
 
   .prosumm_1 {
+    display: none;
+  }
+
+  .prosumm_2 {
     display: none;
   }
 
@@ -921,7 +925,7 @@ textarea:focus:invalid {
   }
 }
 
-@media (min-width: 375px) {
+@media (min-width: 1000px) {
   body {
     width: 100%;
     overflow: hidden;
@@ -1313,6 +1317,24 @@ textarea:focus:invalid {
     line-height: 24px;
     color: #344563;
     margin-top: 10px;
+  }
+
+  .prosumm_2 {
+    order: 2;
+    position: static;
+    width: 80%;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+
+  .connect_desktop {
+    padding-left: 20px;
   }
 
   .tag1_D {
